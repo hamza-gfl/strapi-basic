@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "first_pages",
+  "info": {
+    "singularName": "first-page",
+    "pluralName": "first-pages",
+    "displayName": "First Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "bannerHeading": {
+      "type": "string"
+    },
+    "bannerDescription": {
+      "type": "text"
+    },
+    "bannerButtonText": {
+      "type": "string"
+    },
+    "bannerBackground": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
